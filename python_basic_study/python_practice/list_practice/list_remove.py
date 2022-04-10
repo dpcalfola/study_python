@@ -6,3 +6,6 @@ print(a)
 
 a.remove(3)
 print(a)
+
+# a.remove(99) # 요소가 없을 경우 ValueError
+print(a)
