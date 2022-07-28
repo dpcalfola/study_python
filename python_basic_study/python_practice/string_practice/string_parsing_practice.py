@@ -21,3 +21,4 @@ print(result_7)  # 8
 string_b = ''
 result_b_1 = string_b[0]
 print(result_b_1)
+
