@@ -19,7 +19,7 @@ def estimate_time(func):
         result: float = func(*args, **kwargs)
         end_time: float = time.perf_counter()
         elapsed_time_ms: float = (end_time - start_time) * 1000
-        print(f'Function elapsed time: {elapsed_time_ms:.6f} ms')
+        print(f"Function elapsed time: {elapsed_time_ms:.6f} ms")
         return result
 
     return wrapper

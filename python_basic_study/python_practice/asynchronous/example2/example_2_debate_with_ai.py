@@ -23,9 +23,9 @@ def sync_counter(sleep_time):
     :return:
     """
 
-    print(f'One with sleep_time {sleep_time}')
+    print(f"One with sleep_time {sleep_time}")
     time.sleep(sleep_time)
-    print(f'Two with sleep time {sleep_time}')
+    print(f"Two with sleep time {sleep_time}")
 
 
 def sync_main():
@@ -38,9 +38,9 @@ def sync_main():
 
 
 async def async_counter(sleep_time):
-    print(f'One with sleep_time {sleep_time}')
+    print(f"One with sleep_time {sleep_time}")
     await asyncio.sleep(sleep_time)
-    print(f'Two with sleep_time {sleep_time}')
+    print(f"Two with sleep_time {sleep_time}")
 
 
 async def async_main():
@@ -49,14 +49,15 @@ async def async_main():
 
 # Start check up performance
 
+
 def get_run_code() -> int:
-    guide_message: str = '1 - Execute sync_main()\n2 - Execute async_main()'
-    error_message: str = '\nError: Input value should be integer 1 or 2'
+    guide_message: str = "1 - Execute sync_main()\n2 - Execute async_main()"
+    error_message: str = "\nError: Input value should be integer 1 or 2"
 
     print(guide_message)
 
     while True:
-        print('Enter the number 1 or 2:', end='')
+        print("Enter the number 1 or 2:", end="")
         try:
             input_run_code: int = int(sys.stdin.readline().rstrip())
             if input_run_code in (1, 2):

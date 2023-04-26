@@ -13,18 +13,18 @@ print(c_1)
 print(c_2)
 
 print(25 // 26)
-print('-----------')
+print("-----------")
 
 
 def get_char(n: int) -> chr:
-    s = ''
+    s = ""
 
     while n != 0:
         reminder = n % 26
         n //= 26
 
         if reminder == 0:
-            s += 'Z'
+            s += "Z"
             n -= 1
         else:
             s += chr(64 + reminder)
@@ -39,5 +39,5 @@ print(get_char(27), 27)
 print(get_char(53), 53)
 print(get_char(52), 52)
 
-print('-----')
+print("-----")
 print(get_char(26))

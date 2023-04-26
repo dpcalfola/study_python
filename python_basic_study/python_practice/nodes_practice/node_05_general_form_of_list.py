@@ -1,5 +1,5 @@
 # Node
-class Node():
+class Node:
     def __init__(self):
         self.data = None
         self.link = None
@@ -19,7 +19,15 @@ def print_nodes(start):
 # Global variable
 memory = []
 head, current, pre = None, None, None
-data_array = ['Clarkson', 'Anderson', 'Randle', 'D\'russell', 'Ingram', 'Kuzma', 'Caruso']
+data_array = [
+    "Clarkson",
+    "Anderson",
+    "Randle",
+    "D'russell",
+    "Ingram",
+    "Kuzma",
+    "Caruso",
+]
 
 node = Node()
 node.data = data_array[0]

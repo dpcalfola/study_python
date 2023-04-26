@@ -1,15 +1,16 @@
 # class CAR() 는 사실
 # class Car(object) object 가 생략된 것
 
+
 class Car:
     max_speed = 300
     max_people = 5
 
     def start(self):
-        print('START==')
+        print("START==")
 
     def stop(self):
-        print('STOOOOP!!')
+        print("STOOOOP!!")
 
 
 k9 = Car()
@@ -29,4 +30,3 @@ print(k9.max_people)
 print(k3.max_people)
 print(type(k9))
 print(dir(k9))
-

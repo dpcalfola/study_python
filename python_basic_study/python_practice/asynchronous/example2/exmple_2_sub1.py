@@ -8,8 +8,9 @@ import asyncio
 import sys
 import time
 
-from python_snippets.annotations.estimate_executation_time.estimate_time_1 import \
-    estimate_time  # Annotation for elapsed time
+from python_snippets.annotations.estimate_executation_time.estimate_time_1 import (
+    estimate_time,
+)  # Annotation for elapsed time
 
 
 def sync_counter(sleep_time):
@@ -20,9 +21,9 @@ def sync_counter(sleep_time):
     :return:
     """
 
-    print(f'One with sleep_time {sleep_time}')
+    print(f"One with sleep_time {sleep_time}")
     time.sleep(sleep_time)
-    print(f'Two with sleep time {sleep_time}')
+    print(f"Two with sleep time {sleep_time}")
 
 
 def sync_main():
@@ -35,9 +36,9 @@ def sync_main():
 
 
 async def async_counter(sleep_time):
-    print(f'One with sleep_time {sleep_time}')
+    print(f"One with sleep_time {sleep_time}")
     await asyncio.sleep(sleep_time)
-    print(f'Two with sleep_time {sleep_time}')
+    print(f"Two with sleep_time {sleep_time}")
 
 
 async def async_main():
@@ -56,13 +57,13 @@ start_time: float = time.time()
 asyncio.run(async_main())
 end_time: float = time.time()
 elapsed_time: float = end_time - start_time
-print(f'async_main() Elapsed time: {elapsed_time}')
+print(f"async_main() Elapsed time: {elapsed_time}")
 
 start_time: float = time.time()
 sync_main()
 end_time: float = time.time()
 elapsed_time: float = end_time - start_time
-print(f'sync_main() Elapsed time: {elapsed_time}')
+print(f"sync_main() Elapsed time: {elapsed_time}")
 
 #
 # How to run async function

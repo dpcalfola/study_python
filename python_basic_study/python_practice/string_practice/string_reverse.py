@@ -1,4 +1,4 @@
-a: str = '12345'
+a: str = "12345"
 
 reversed_a = a[::-1]
 

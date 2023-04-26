@@ -1,5 +1,5 @@
-str_01 = 'asdf1fdsa'
-str_02 = 'asdf1fdsa2'
+str_01 = "asdf1fdsa"
+str_02 = "asdf1fdsa2"
 
 
 def is_palindrome(s: str) -> bool:

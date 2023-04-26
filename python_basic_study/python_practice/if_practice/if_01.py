@@ -1,5 +1,5 @@
 # null string
-s = ''
+s = ""
 
 if s:
     print("null string is True")

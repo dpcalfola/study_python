@@ -1,4 +1,4 @@
 # (주의)
 # 빨간줄이 그어져 있지만 실행에는 오류가 발생하지 않는다
-a: int = 'hello'
+a: int = "hello"
 print(a)

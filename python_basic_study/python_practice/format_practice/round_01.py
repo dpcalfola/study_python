@@ -5,4 +5,3 @@ print(round(1.5, 0))  # 2.0
 print(round(2.5, 0))  # 2.0
 
 print(round(0.5))  # 0
-

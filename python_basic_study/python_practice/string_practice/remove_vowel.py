@@ -1,6 +1,6 @@
 def remove_vowel(w: str):
     word: str = w
-    vowels = ['a', 'e', 'i', 'o', 'u']
+    vowels = ["a", "e", "i", "o", "u"]
 
     for c in word:
         if c.lower() in vowels:
@@ -9,12 +9,12 @@ def remove_vowel(w: str):
     return word
 
 
-print(remove_vowel('abcdefg'))
+print(remove_vowel("abcdefg"))
 
 
 def remove_vowel_and_next_char(w: str):
     word: str = w
-    vowels = ['a', 'e', 'i', 'o', 'u']
+    vowels = ["a", "e", "i", "o", "u"]
 
     for c in word:
         if c.lower() in vowels:
