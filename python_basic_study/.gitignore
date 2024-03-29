@@ -1,2 +1,7 @@
 # personal use
 personal_use/
+
+# IDE, OS files
+.idea
+.DS_Store
+
