@@ -1,0 +1,59 @@
+Python Memo
+
+
+완전수 - 약수의 합이 자기 자신인 수
+우애수 - 자신을 제외한 약수의 합이 자기 자신인 수
+
+
+알고리즘
+    자연어
+    순서도
+    의사코드
+    프로그래밍 언어
+
+
+
+Learning programming
+    difficulty syntax problem
+
+
+
+Interpreter vs Compiler
+    Interpreter - One line by one line (during run)
+    Compiler - All lines at once (before run)
+
+    Python - Interpreter
+    C - Compiler
+
+    Python - CPython, Jython, IronPython, PyPy, Stackless Python
+    C - C++, C#, Objective-C, Java, JavaScript, Perl, PHP, Ruby, Swift, Rust, Go, Scala, Kotlin, TypeScript, Visual Basic, R, MATLAB, Shell, SQL, HTML, CSS, XML, JSON, YAML, Markdown, LaTeX, ...
+
+
+
+
+Library
+    Pandas - Data Analysis
+
+
+
+
+
+
+
+
+과제
+    함수 def
+    반복문 for
+    조건문 if
+
+    위의 세가지를 사용하여 터틀로 그림그리기
+
+
+
+설문
+https://docs.google.com/forms/d/e/1FAIpQLSceDg3-CwXYpUnqP5CUvJiu7C24Z1ucupqateZabMX7V8cAcQ/viewform
+
+
+설문 만드는법
+bitly
+

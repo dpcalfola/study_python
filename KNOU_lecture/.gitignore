@@ -1,0 +1,6 @@
+# idea, OS foles
+.idea
+.DS_Store
+
+# documents - It could make copyright problem
+/documents

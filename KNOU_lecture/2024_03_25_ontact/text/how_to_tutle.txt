@@ -1,0 +1,25 @@
+< Mac, Pycham 환경에서 Turtle 모듈 사용 방법 >
+
+(venv) 환경 추천
+
+터미널 명령어 실행
+    1. 터틀 패키지 설치
+        pip install PythonTurtle
+    2. 파이썬 버전 확인
+        python -V
+    3. 파이썬 버전에 맞는 터틀 패키지 설치 (homebrew 사용)
+        brew install python-tk@3.11
+
+
+
+
+1.
+
+수업 중간에 있엇던
+
+배열과 리스트 차이
+C언어 방식과 파이썬 방식
+
+한번만 더 설명 해주실 수 있을까요?
+
+
