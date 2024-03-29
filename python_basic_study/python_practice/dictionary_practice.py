@@ -4,12 +4,8 @@
 # 문자열에는 쌍따옴표
 # 사용
 
-hobby_list = {'coding', "drink alcohol"}
+hobby_list = {"coding", "drink alcohol"}
 
-dic1 = {
-    'name': 'fola',
-    'age': 35,
-    'hobby': hobby_list
-}
+dic1 = {"name": "fola", "age": 35, "hobby": hobby_list}
 
-print(dic1['name'])
+print(dic1["name"])

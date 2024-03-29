@@ -6,17 +6,17 @@ class Person:
         self.is_handsome = is_handsome
 
 
-me = Person('fola', '36', 'Kyenggido', False)
+me = Person("fola", "36", "Kyenggido", False)
 
 if me:
     print(me.age)
 
-str_a = 'abced'
+str_a = "abced"
 
 if str_a:
     print(str_a)
 
 if me.is_handsome:
-    print('handsome')
+    print("handsome")
 else:
-    print('not handsome')
+    print("not handsome")

@@ -18,7 +18,6 @@ print(result_7)  # 8
 
 
 # null string 일 경우 substring 문법 시도할 경우 에러 발생
-string_b = ''
+string_b = ""
 result_b_1 = string_b[0]
 print(result_b_1)
-

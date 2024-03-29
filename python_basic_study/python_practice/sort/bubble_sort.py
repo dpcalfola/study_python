@@ -1,5 +1,5 @@
 arr = [6, 4, 5, 2, 3, 1]
-print('start ', arr)
+print("start ", arr)
 
 
 def swap(swap_list, a, b):
@@ -15,4 +15,4 @@ for i in range(0, cnt - 1):
         if arr[j] > arr[j + 1]:
             swap(arr, j, j + 1)
 
-print('result', arr)
+print("result", arr)

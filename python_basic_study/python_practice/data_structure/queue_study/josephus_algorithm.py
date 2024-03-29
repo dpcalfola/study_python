@@ -7,5 +7,3 @@ print(que_)
 
 que_.rotate(2)
 print(que_)
-
-ㅣ

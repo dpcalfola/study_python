@@ -1,4 +1,4 @@
-class Node():
+class Node:
     def __init__(self):
         self.data = None
         self.link = None
@@ -23,5 +23,3 @@ print(node_1.data)
 print(node_1.link.data)
 print(node_1.link.link.data)
 print(node_1.link.link.link.data)
-
-

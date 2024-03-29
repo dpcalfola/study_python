@@ -22,10 +22,10 @@ visited_arr = []
 
 
 def print_status():
-    print('stack : ', stack)
-    print('visited_arr : ', visited_arr)
-    print('next : ', next_)
-    print('current : ', current)
+    print("stack : ", stack)
+    print("visited_arr : ", visited_arr)
+    print("next : ", next_)
+    print("current : ", current)
     print()
 
 

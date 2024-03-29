@@ -14,8 +14,9 @@ import asyncio
 import sys
 import time
 
-from python_snippets.annotations.estimate_executation_time.estimate_time_1 import \
-    estimate_time  # Annotation for elapsed time
+from python_snippets.annotations.estimate_executation_time.estimate_time_1 import (
+    estimate_time,
+)  # Annotation for elapsed time
 
 
 def sync_counter(sleep_time):
@@ -26,9 +27,9 @@ def sync_counter(sleep_time):
     :return:
     """
 
-    print(f'One with sleep_time {sleep_time}')
+    print(f"One with sleep_time {sleep_time}")
     time.sleep(sleep_time)
-    print(f'Two with sleep time {sleep_time}')
+    print(f"Two with sleep time {sleep_time}")
 
 
 @estimate_time
@@ -42,9 +43,9 @@ def sync_main():
 
 
 async def async_counter(sleep_time):
-    print(f'One with sleep_time {sleep_time}')
+    print(f"One with sleep_time {sleep_time}")
     await asyncio.sleep(sleep_time)
-    print(f'Two with sleep_time {sleep_time}')
+    print(f"Two with sleep_time {sleep_time}")
 
 
 @estimate_time
@@ -64,12 +65,14 @@ async def double_main():
     await asyncio.gather(async_main(), async_main())
 
 
-print('Execute Method : run twice asyncio.run(async_main())')
+print("Execute Method : run twice asyncio.run(async_main())")
 start_time: float = time.time()
 double_main()
 end_time: float = time.time()
 elapsed_time: float = end_time - start_time
-print(f'Twice async_main() elapsed time: {elapsed_time:.6f} -> The time to pass every time.sleep()')
+print(
+    f"Twice async_main() elapsed time: {elapsed_time:.6f} -> The time to pass every time.sleep()"
+)
 
 """
 * Function elastic time: 0.011042 ms (annotation time)

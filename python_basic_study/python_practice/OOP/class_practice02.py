@@ -1,20 +1,20 @@
-class Car():
+class Car:
     max_speed = 300
     max_people = 5
 
     def start(self):
-        print('START==')
+        print("START==")
 
     def stop(self):
-        print('STOOOOP!!')
+        print("STOOOOP!!")
 
     # magic method
     def __str__(self):
-        return 'hello world'
+        return "hello world"
 
     #
     def __init__(self):
-        print('instance has made')
+        print("instance has made")
 
 
 k9 = Car()

@@ -8,7 +8,7 @@ print(c1)
 
 # a, b, c, d = map(int, sys.stdin.readline().split())
 a, b, c, d = 2, 1, 1, 1
-arr = ['+'] * a + ['-'] * b + ['*'] * c + ['//'] * d
+arr = ["+"] * a + ["-"] * b + ["*"] * c + ["//"] * d
 print(arr)
 
 per_arr = list(permutations(arr))

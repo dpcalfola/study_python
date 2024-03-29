@@ -14,4 +14,4 @@ bool_list_c: list = bool_list_a + bool_list_b
 
 print(bool_list_c)
 if bool_list_c[0]:
-    print('bool_list_c[0] is True')
+    print("bool_list_c[0] is True")

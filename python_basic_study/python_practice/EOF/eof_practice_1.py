@@ -1,4 +1,4 @@
-null_string: str = ''
+null_string: str = ""
 
 print(type(null_string))
 

@@ -1,19 +1,19 @@
-last_input: str = '\n'
+last_input: str = "\n"
 
 
 # eof
 def non_eof():
     if last_input:
-        print('something exist')
+        print("something exist")
         return
-    print('succeed eof')
+    print("succeed eof")
 
 
 def eof():
-    if last_input.rstrip('\n'):
-        print('something exist')
+    if last_input.rstrip("\n"):
+        print("something exist")
         return
-    print('succeed eof')
+    print("succeed eof")
 
 
 non_eof()

@@ -16,12 +16,12 @@ print()
 str1 = "python"
 print(str1)
 
-str1 = '''
+str1 = """
 python
 java
 javascript
 swift
-'''
+"""
 print(str1)
 
 str1 = "python"

@@ -33,7 +33,6 @@ visited.append(current)
 
 # Go On A Trip !!
 while len(stack):
-
     next_ = None
 
     for vertex in range(4):
@@ -59,5 +58,5 @@ while len(stack):
     # while 문 시작으로 돌아감
 
 print()
-print('visited vertex : ', end=' ')
+print("visited vertex : ", end=" ")
 print(visited)

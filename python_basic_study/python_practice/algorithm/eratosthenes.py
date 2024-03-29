@@ -16,7 +16,7 @@ def prime_arr(max_int: int) -> list:
         # i가 소수일 경우
         if arr[i]:
             # 소수의 제곱부터 최대범위까지 i의 배수만큼 걸어가며 False 로 마킹
-            for j in range((i ** 2), len(arr), i):
+            for j in range((i**2), len(arr), i):
                 arr[j] = False
     return arr
 

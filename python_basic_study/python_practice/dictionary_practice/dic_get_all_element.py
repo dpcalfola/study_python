@@ -17,4 +17,4 @@ print()
 
 # print all element
 for k, v in dic_a.items():
-    print(f'{k}: {v}')
+    print(f"{k}: {v}")
